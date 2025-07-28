@@ -20,6 +20,7 @@ def calculate_network_details(ip_address_str, cidr_prefix):
         print(f"IP Address Provided: {ip_address_str}")
         print(f"CIDR Prefix Length: /{cidr_prefix}")
         print(f"Subnet Mask: {ip_network.netmask}")
+        print(f"Wildcard Mask: {ip_network.hostmask}")
         print(f"Network Address: {ip_network.network_address}")
         print(f"Broadcast Address: {ip_network.broadcast_address}")
 
