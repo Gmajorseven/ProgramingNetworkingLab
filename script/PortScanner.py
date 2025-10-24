@@ -2,9 +2,8 @@ import socket
 import sys
 
 def scan_ports(host, start_port, end_port):
-    """
-    Scans a range of ports on a given host to see if they are open.
-    """
+    
+    # Scans a range of ports on a given host to see if they are open.
     print(f"Scanning {host} from port {start_port} to {end_port}...")
     open_ports = []
     try:
